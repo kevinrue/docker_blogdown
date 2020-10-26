@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
+docker_build.sh
+docker_rmi.sh
+docker_run.sh
+src
