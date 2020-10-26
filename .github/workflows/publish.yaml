@@ -13,7 +13,7 @@ jobs:
       - name: Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          name: docker.pkg.github.com/kevinrue/docker_blogdown/docker_blogdown:latest
+          name: docker.pkg.github.com/kevinrue/docker_blogdown/bioconductor_docker_blogdown:latest
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com

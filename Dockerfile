@@ -2,7 +2,7 @@ FROM bioconductor/bioconductor_docker:devel
 
 MAINTAINER kevinrue67@gmail.com
 LABEL authors="kevinrue67@gmail.com" \
-    description="Docker image to run blogdown::build_site()"
+    description="Docker image to run blogdown::build_site() in a Bioconductor environment."
 
 RUN apt-get update && apt-get install -y golang && apt-get clean && rm -rf /var/lib/apt/lists/*
 
