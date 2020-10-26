@@ -2,8 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+# OSX
 .DS_Store
+# renv
+.Rprofile
+renv
+renv.lock
+src
+# Test scripts
 docker_build.sh
 docker_rmi.sh
 docker_run.sh
-src
