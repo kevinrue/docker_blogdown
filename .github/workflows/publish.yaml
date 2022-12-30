@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Publish to Registry
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: docker.pkg.github.com/kevinrue/docker_blogdown/bioconductor_docker_blogdown:latest
           username: ${{ github.actor }}
